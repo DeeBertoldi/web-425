@@ -1,2 +1,6 @@
-# web-425
-WEB425-M321 Angular with TypeScript (2265-DD)
+# WEB 425 Angular with TypeScript
+
+## Contributors
+
+- Professor Krasso
+- Daniella Bertoldi

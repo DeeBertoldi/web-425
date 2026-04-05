@@ -13,10 +13,12 @@ import { RouterOutlet, RouterLink } from '@angular/router';
       </header>
 
       <nav class="nav">
-        <a href="#">Home</a>
-        <a href="#">Characters</a>
-        <a href="#">Inventory</a>
-        <a href="#">Skills</a>
+        <a routerLink="/home">Home</a>
+        <a routerLink="/players">Players</a>
+        <a routerLink="/signin">Sign In</a>
+        <a routerLink="/create-character">Create Character</a>
+        <a routerLink="/create-guild">Create Guild</a>
+        <a routerLink="/character-faction">Character Faction</a>
       </nav>
 
       <main class="main">
@@ -25,10 +27,12 @@ import { RouterOutlet, RouterLink } from '@angular/router';
 
       <footer class="footer">
         <nav>
-          <a href="#">Home</a> |
-          <a href="#">Characters</a> |
-          <a href="#">Inventory</a> |
-          <a href="#">Skills</a>
+          <a routerLink="/home">Home</a> |
+          <a routerLink="/players">Players</a> |
+          <a routerLink="/signin">Sign In</a> |
+          <a routerLink="/create-character">Create Character</a> |
+          <a routerLink="/create-guild">Create Guild</a> |
+          <a routerLink="/character-faction">Character Faction</a>
         </nav>
         <p>© 1997 RPG Guild</p>
       </footer>

@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { PlayersComponent } from './players.component';
 
 describe('PlayersComponent', () => {
@@ -20,4 +19,12 @@ describe('PlayersComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should display a list of players', () => {
+    const compiled = fixture.nativeElement;
+    const items = compiled.querySelectorAll('.player');
+
+    expect(items.length).toEqual(component.players.length);
+  });
+
 });
